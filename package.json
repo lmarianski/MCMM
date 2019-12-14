@@ -1,6 +1,6 @@
 {
 	"name": "mcmm",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A very cool modpack",
 	"scripts": {
 		"build": "mcbuilder build",
