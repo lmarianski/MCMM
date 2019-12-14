@@ -9,6 +9,6 @@
   "author": "lukas2005",
   "license": "GPL-3.0",
   "devDependencies": {
-    "mcbuilder": "^1.0.3"
+    "mcbuilder": "^1.0.5"
   }
 }
