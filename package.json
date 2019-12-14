@@ -4,7 +4,7 @@
   "description": "A very cool modpack",
   "scripts": {
     "build": "mcbuilder build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "lukas2005",
   "license": "GPL-3.0",
