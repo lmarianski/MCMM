@@ -1,10 +1,14 @@
 language: node_js
+
+after_success:
+  - npm run build
+
 deploy:
   provider: releases
   api_key:
     secure: n7R50P0oysaPcukPzW/lpu+bP3HggIfUjvqpg2OGQ8cib/uCwiqewHD1WcLzC2a3Q2TmzXXp2eRKSaub80rTAr8XTLxR5fSH0/vCSaRbbXw585TbvskL7qx7ChSVNTw7rxp1RolPXqivcbLwIXw+a5w3qQ7bINGWZAL5PJ4Fl47YcTvQmxO/mwtAjkKcFnL5LbP6x63jETKbZSbMciH8a/7w5IJoFMlUCIDBRUFEbK0pm6O/Ep/fk3q6Z70qNp3d9+A80M9H5r/Jrpk/oGEv5JBlp/HE9mxYBKwOLNQ1qUhc23pycU0MCsTpYimDUT3wMypGxd7n6BYnG9a6F1su4hZduEpx7YaabxC7UEcc5Fbx2aJWK/78jS1nlzjwx7lyQFRgwyLjbQeL767PfrR1vqsfL6CVweB8kDw4IgjSQmVMH9skCYTtFwWPGtwgzOs/wPZ6xWbwd+DNR7aJm8KohhcSAT8FINyM/oA8eYAzFdpK3R+OoyfgcIuZz1COZhBMvb0S9bq7yWzllY6COb7/O+C3p+0EHIZKOGipsNo65c4l4rdmcFQkHknj3zqzUzhr/qTojOb2pE2EWDKauI4VDpdLvzRLc+zKtO4by2nF1i3f6EbIzCdFhHtgGgpD1GmIQQAO3jSAn1NMivc4UwT9+dZtCV85DNL/wE4CvZVSWJc=
   file: out/MCMM.zip
-  cleanup: false
   on:
     repo: lukas2005/MCMM
     tags: true
+  skip_cleanup: true
