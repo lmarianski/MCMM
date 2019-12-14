@@ -1,0 +1,13 @@
+{
+  "name": "mcmm",
+  "version": "1.0.0",
+  "description": "A very cool modpack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lukas2005",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "mcbuilder": "^1.0.3"
+  }
+}

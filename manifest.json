@@ -1,0 +1,23 @@
+{
+	"version": "1.0.0",
+	"gameVersion": "1.12.2",
+	"forgeVersion": "14.23.5.2847",
+	"dependencies": [
+		{
+			"name": "OpenComputers-MC1.12.2-1.7.5.192.jar",
+			"projectId": 223008,
+			"fileId": 2828357
+		}
+	],
+	"name": "MCMM",
+	"description": "Hi",
+	"author": "hel",
+	"clientDependencies": [
+		{
+			"name": "DiscordSuite-2.2.4.jar",
+			"projectId": 282743,
+			"fileId": 2577684
+		}
+	],
+	"serverDependencies": []
+}
